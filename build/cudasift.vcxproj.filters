@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\geomFuncs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\mainSift.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\cudaImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\cudaSiftH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\cudaSiftD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\cudaSift.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\cudautils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\cudaImage.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\cudaSiftH.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\matching.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\build\CMakeFiles\1f628edc439166ceee5231cd24fe1836\cudasift_intermediate_link.obj.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\build\CMakeFiles\cudasift.dir\$(Configuration)\cudasift_generated_cudaImage.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\build\CMakeFiles\cudasift.dir\$(Configuration)\cudasift_generated_cudaSiftH.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\build\CMakeFiles\cudasift.dir\$(Configuration)\cudasift_generated_matching.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+    <Object Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\build\CMakeFiles\cudasift.dir\$(Configuration)\cudasift_intermediate_link.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{328BBE36-C102-38B2-9B2D-00AB07CAA011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ACE8D16E-DE72-3A74-B312-DB0C1C60C393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{2B9D21E3-A111-3BB5-8141-FEEC18982A0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A1508C7D-874E-38D0-87A1-6A0EEBE96632}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cuevision\Documents\CudaSift-Maxwell\build\CMakeFiles\70f0a99f0b4ff74ab6c3bcdf33ffa3b4\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{328BBE36-C102-38B2-9B2D-00AB07CAA011}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

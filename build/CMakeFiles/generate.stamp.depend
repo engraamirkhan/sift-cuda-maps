@@ -1,0 +1,51 @@
+# CMake generation dependency list for this directory.
+C:/Users/cuevision/Documents/CudaSift-Maxwell/CMakeLists.txt
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/3.11.1/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/3.11.1/CMakeCCompiler.cmake
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/3.11.1/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/3.11.1/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-3.11/Templates/CPackConfig.cmake.in
+C:/Program Files/CMake/share/cmake-3.11/Templates/CPackConfig.cmake.in
+C:/Users/cuevision/Documents/opencv-3.4.1/build/OpenCVConfig-version.cmake
+C:/Users/cuevision/Documents/opencv-3.4.1/build/OpenCVConfig.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/select_compute_arch.cmake
+C:/Users/cuevision/Documents/opencv-3.4.1/build/OpenCVModules.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/select_compute_arch.cmake
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/cudasift.dir/cudasift_generated_cudaImage.cu.obj.depend
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/run_nvcc.cmake
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/cudasift.dir/cudasift_generated_cudaSiftH.cu.obj.depend
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/run_nvcc.cmake
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/cudasift.dir/cudasift_generated_matching.cu.obj.depend
+C:/Program Files/CMake/share/cmake-3.11/Modules/FindCUDA/run_nvcc.cmake
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/cudasift.dir/cudasift_generated_cudaImage.cu.obj.cmake.pre-gen
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/cudasift.dir/cudasift_generated_cudaSiftH.cu.obj.cmake.pre-gen
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/cudasift.dir/cudasift_generated_matching.cu.obj.cmake.pre-gen

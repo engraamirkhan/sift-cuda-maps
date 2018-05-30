@@ -1,0 +1,5 @@
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/INSTALL.dir
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/cudasift.dir
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/PACKAGE.dir
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/cuevision/Documents/CudaSift-Maxwell/build/CMakeFiles/ZERO_CHECK.dir
