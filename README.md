@@ -1,31 +1,18 @@
 # CudaSift - SIFT features with CUDA
 
-This is the fourth version of a SIFT (Scale Invariant Feature Transform) implementation using CUDA for GPUs from NVidia. The first version is from 2007 and GPUs have evolved since then. This version is slightly more precise and considerably faster than the previous versions and has been optimized for Kepler and later generations of GPUs.
+Tested on Visual Studio 2015 with Cuda 9.1 and OpenCV 3.4.1
 
-On a GTX 1060 GPU the code takes about 2.7 ms on a 1280x960 pixel image and 3.8 ms on a 1920x1080 pixel image. There is also code for brute-force matching of features and homography computation that takes about 3.7 ms for two sets of around 2250 SIFT features each.
+In build folder type:
 
-The code relies on CMake for compilation and OpenCV for image containers. OpenCV can however be quite easily changed to something else. The code can be relatively hard to read, given the way things have been parallelized for maximum speed.
+cmake -G "Visual Studio 14 2015" ..
 
-The code is free to use for non-commercial applications. If you use the code for research, please refer to the following paper.
+after the project is built can be opened in visual studio 2015 and build.
+other than opencv include and linking dependency, these cudadevrt.lib
+cudart.lib
+cublas.lib
+cublas_device.lib
 
-M. Bj&ouml;rkman, N. Bergstr&ouml;m and D. Kragic, "Detecting, segmenting and tracking unknown objects using multi-label MRF inference", CVIU, 118, pp. 111-127, January 2014. [ScienceDirect](http://www.sciencedirect.com/science/article/pii/S107731421300194X)
-
-
-## Benchmarking
-
-Computational cost (in milliseconds) on different GPUs (latest benchmark marked with *):
-
-|         |                     | 1280x960 | 1920x1080 |  GFLOPS  | Bandwidth | Matching |
-| ------- | ------------------- | -------| ---------| ---------- | --------|--------|
-| Pascal  | GeForce GTX 1080 Ti |   1.7* |     2.3* |	10609    |  484    |   1.4* |
-| Pascal  | GeForce GTX 1060    |   2.7* |     4.0* |	 3855    |  192    |   2.6* |
-| Maxwell | GeForce GTX 970     |   3.8* |     5.6* |    3494    |  224    |   2.8* |
-| Kepler  | Tesla K40c          |   5.4* |     8.0* |    4291    |  288    |   5.5* |
-| Kepler  | GeForce GTX TITAN   |   4.4* |     6.6* |    4500    |  288    |   4.6* |
-
-Matching is done between two sets of 1616 and 1769 features respectively. 
- 
-The latest improvements involve a slight adaptation for Pascal, changing from textures to global memory (mostly through L2) in the most costly function LaplaceMulti. The new medium-end card GTX 1060 is impressive indeed. It will be interesting to see the performance on the NVidia Titan X and other Pascal cards.
+needed to be added for linking.
 
 ## Usage
 
